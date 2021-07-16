@@ -64,20 +64,13 @@ npm run test:hml
 npm run test:prd
 ```
 
-<!-- ROADMAP -->
-## Roadmap
-
-Aqui você acompanha os [tickets em desenvolvimento]: 
-
-https://xpcorretora.sharepoint.com/:x:/r/sites/QA-Cross/_layouts/15/Doc.aspx?sourcedoc=%7B40764703-546C-4956-8FE3-4C3A243E2AE2%7D&file=ControleTestesRegressivos_CanaisRV_Clear.xlsx&action=default&mobileredirect=true&cid=8d426a11-bf83-4cfc-9f25-a23d2f9317f4
-
 <!-- CONTRIBUTING -->
 ## Contribuindo
 
 Contribuições são sempre bem vindas. Todas as contribuições serão analisadas e devidamente apreciadas!
 
 1. Faça um fork do projeto
-2. Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas alterações (`git commit -m 'Add some AmazingFeature'`)
-4. Faça um push das suas alterações (`git push origin feature/AmazingFeature`)
+2. Crie sua feature branch (`git checkout -b feature/Teste`)
+3. Commit suas alterações (`git commit -m 'Add some Teste'`)
+4. Faça um push das suas alterações (`git push origin feature/Teste`)
 5. Abra o Pull Request
