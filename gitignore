@@ -1,0 +1,10 @@
+node_modules/
+.vscode/
+.npmrc
+package-lock.json
+results/html/
+results/
+results/output_result.json
+.idea
+junit.xml
+test-report.html

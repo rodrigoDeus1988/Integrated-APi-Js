@@ -1,0 +1,41 @@
+# Executes a JMeter stress test on a linux agent
+
+pool:
+  name: 'XPHMLIntegrationTests' #XPHMLIntegrationTests - Testes em HML | XPIntegrationTests - Testes em PROD
+
+steps:
+- task: NodeTool@0
+  displayName: 'Install Node.js'
+  inputs:
+    versionSpec: '10.x'
+- task: Npm@1
+  displayName: 'NPM Install'
+  inputs:
+    command: 'install'
+- task: Npm@1
+  displayName: 'Execute Tests'
+  inputs:
+    command: 'custom'
+    customCommand: 'run test:hml'
+  continueOnError: true
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'VSTest'
+    testResultsFiles: '**/test-results.trx'
+- task: CopyFiles@1
+  displayName: 'Copying files to drop'
+  inputs:
+    Contents: 'results/**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
+
+
+
+
+    
+

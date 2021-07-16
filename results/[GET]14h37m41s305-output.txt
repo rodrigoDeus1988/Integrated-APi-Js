@@ -1,0 +1,281 @@
+--------------------------------
+URL: http://statement-microservice.cards.k8s-uat.bancomidway.io/cards/v2/accounts/cards/statements/transactions
+Horário da chamada: 14:37:41:305
+--------------------------------
+Método: GET
+Status Code: 200
+--------------------------------
+Request Header: 
+GET /cards/v2/accounts/cards/statements/transactions HTTP/1.1
+Host: statement-microservice.cards.k8s-uat.bancomidway.io
+Accept-Encoding: gzip, deflate
+User-Agent: node-superagent/3.8.3
+x-account-cpf: 23542112011
+x-account-pan: 4077********3547
+Connection: close
+
+Request Body: "Essa chamada não fez request com body"
+--------------------------------
+Response: {
+  "message": "Operation performed successfully.",
+  "code": "0",
+  "detail": [
+    {
+      "dueDate": null,
+      "realDueDate": null,
+      "generatedDate": null,
+      "closure": "OPENED",
+      "closedStatement": null,
+      "totalValue": 3096.02,
+      "totalType": "CREDIT",
+      "payedValue": 6400,
+      "minValue": 0,
+      "transactions": {
+        "content": [
+          {
+            "establishment": null,
+            "transactionDate": "2024-10-07",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": 1,
+            "totalOfInstalments": 12,
+            "originalCurrency": "R$",
+            "originalAmount": 8,
+            "carrierCurrency": "R$",
+            "carrierAmount": 8,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "Tarifa Anuidade 1/12                    ",
+            "value": 8,
+            "transactionCurrency": "R$",
+            "cardInfo": {
+              "name": "Kin Riach",
+              "endPan": "3547",
+              "type": "HOLDER"
+            },
+            "transactionType": "Outros Debitos",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-10-03",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.7,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.7,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "Encargo Complementar sobre atraso",
+            "value": 0.7,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Juros por Atraso",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-10-03",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.3,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.3,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "AJUSTE DE IOF",
+            "value": 0.3,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Tarifas",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-09-21",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 11.71,
+            "carrierCurrency": "R$",
+            "carrierAmount": 11.71,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "Debit adjustment interest of 21/09/2024",
+            "value": 11.71,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Juros Rotativo",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-09-21",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.19,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.19,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "IOF DIARIO SALDO FINANCIADO REF 21/09/2024",
+            "value": 0.19,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "IOF",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-10-03",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.63,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.63,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "Encargo Complementar sobre atraso",
+            "value": 0.63,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Juros por Atraso",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-10-03",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.26,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.26,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "AJUSTE DE IOF",
+            "value": 0.26,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Tarifas",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-08-22",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 10.46,
+            "carrierCurrency": "R$",
+            "carrierAmount": 10.46,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "Debit adjustment interest of 22/08/2024",
+            "value": 10.46,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Juros Rotativo",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-08-22",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.17,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.17,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "IOF DIARIO SALDO FINANCIADO REF 22/08/2024",
+            "value": 0.17,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "IOF",
+            "type": "DEBIT",
+            "reversed": false
+          },
+          {
+            "establishment": null,
+            "transactionDate": "2024-10-03",
+            "local": null,
+            "exchange": 1,
+            "currentInstalment": null,
+            "totalOfInstalments": null,
+            "originalCurrency": "R$",
+            "originalAmount": 0.54,
+            "carrierCurrency": "R$",
+            "carrierAmount": 0.54,
+            "mccCode": null,
+            "mccDescription": null,
+            "description": "Encargo Complementar sobre atraso",
+            "value": 0.54,
+            "transactionCurrency": "R$",
+            "cardInfo": null,
+            "transactionType": "Juros por Atraso",
+            "type": "DEBIT",
+            "reversed": false
+          }
+        ],
+        "pageable": {
+          "sort": {
+            "sorted": false,
+            "unsorted": true,
+            "empty": true
+          },
+          "offset": 0,
+          "pageNumber": 0,
+          "pageSize": 10,
+          "unpaged": false,
+          "paged": true
+        },
+        "last": false,
+        "totalPages": 4,
+        "totalElements": 40,
+        "number": 0,
+        "sort": {
+          "sorted": false,
+          "unsorted": true,
+          "empty": true
+        },
+        "size": 10,
+        "first": true,
+        "numberOfElements": 10,
+        "empty": false
+      }
+    }
+  ],
+  "links": "",
+  "timestamp": "2021-07-07T14:37:41.042"
+}
+--------------------------------

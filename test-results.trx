@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="84fd0f58-520a-44a5-81cd-dae0a177fa23" name="60003350@ARKMDTI69086.riachuelo.net 2021-07-16T17:18:51.842Z" runUser="60003350" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="ae465357-ff05-41c3-bf85-eeb601d7b0c3"/>
+  <Times creation="2021-07-16T17:18:51.842Z" queuing="2021-07-16T17:18:51.842Z" start="2021-07-16T17:18:51.842Z" finish="2021-07-16T17:18:51.842Z"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Teste / 01_Teste" id="3297b8a2-c728-4197-a4d5-c15039af5562">
+      <Execution id="88830bc0-c62a-44c0-83d8-fb5250f088e1"/>
+      <TestMethod codeBase="Jest_Teste / 01_Teste" name="Teste / 01_Teste" className="Teste"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3297b8a2-c728-4197-a4d5-c15039af5562" executionId="88830bc0-c62a-44c0-83d8-fb5250f088e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="3297b8a2-c728-4197-a4d5-c15039af5562" executionId="88830bc0-c62a-44c0-83d8-fb5250f088e1" testName="Teste / 01_Teste" computerName="ARKMDTI69086.riachuelo.net" duration="00:00:04.927" startTime="2021-07-16T17:18:52.751Z" endTime="2021-07-16T17:18:57.678Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>
