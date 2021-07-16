@@ -81,9 +81,3 @@ Contribuições são sempre bem vindas. Todas as contribuições serão analisad
 3. Commit suas alterações (`git commit -m 'Add some AmazingFeature'`)
 4. Faça um push das suas alterações (`git push origin feature/AmazingFeature`)
 5. Abra o Pull Request
-
-<!-- CONTATO -->
-## Contato
-
-* Thiago Souza [QA] - thiago.1822.primeup@xpi.com.br
-* Andrey Onoue [QA] - andrey.t1855.primeup@xpi.com.br
