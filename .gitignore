@@ -1,9 +1,9 @@
 node_modules
-.vscode/
+.vscode
 .npmrc
 package-lock.json
-results/html/
-results/
+results/html
+results
 results/output_result.json
 .idea
 junit.xml
