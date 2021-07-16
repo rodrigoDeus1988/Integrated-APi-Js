@@ -33,7 +33,7 @@ let getBalanceService = function () {
             statusCode,
             whichMethod("get"),
             null,
-            JsonData.data); 
+            JsonData.data);
     
 }
    
