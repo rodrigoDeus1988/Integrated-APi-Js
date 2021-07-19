@@ -1,0 +1,13 @@
+{
+  "endpoints": {
+    "path_NetFlix": "/avalicao"
+  },
+  
+  "data": {
+    "accept": "application/json;charset=UTF-8",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.28.2",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+  }
+}
