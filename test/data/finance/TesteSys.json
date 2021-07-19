@@ -1,12 +1,11 @@
 {
     "endpoints": {
-      "path_TesteSys" : "/cards/v2/accounts/cards/statements/transactions?pageNumber=0&pageSize=10"
+      "path_TesteSys" : "/cards/v2/accounts/cards/statements/transactions"
     },
   
-    "dataNet":{
-      "accept": "application/json;charset=UTF-8",
-      "x-account-cpf": "27430378811",
-      "x-account-pan": "4077********7988"
+    "data":{
+      "x-account-cpf" : "23542112011",
+      "x-account-pan" : "4077********3547"
     }
       
   }

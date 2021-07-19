@@ -8,7 +8,6 @@ const nodeEnv = require("../../helper/node_env");
 let getBalanceService = function () {
 
     const JsonData = require('../../data/finance/TesteSys.json');
-    const JsonDataNet = require('../../data/finance/TesteNet.json');
 
     function whichMethod(apiMethod) {
         return apiMethod.replace(/([A-Z])\w+/, "");
@@ -34,22 +33,19 @@ let getBalanceService = function () {
             statusCode,
             whichMethod("get"),
             null,
-            JsonData.data);
+            JsonData.data); 
     
 }
    
-    this.postValido = async () => {
-        
-        return http_helper.httpRestPost( 
-            console.log("Teste post"),
-            nodeEnv.host["netflix"],
-            JsonDataNet.endpoints['path_NetFlix'],
+    this.postInvalidarConsultar = async () => {
+
+       
+
+        return http_helper.httpRestCall(
+            nodeEnv.host["hostTsys"],
+            JsonData.endpoints['path_TesteSys'],
             statusCode,
-            whichMethod("post"), 
-            send({
-                filme: "Capitão America Soldado Invernal",
-                nota:  "10",
-                }),
+            whichMethod("post"),
             null,
             JsonData.data);
     }

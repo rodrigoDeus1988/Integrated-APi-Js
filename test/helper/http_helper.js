@@ -62,17 +62,7 @@ let _httpRestCall = async function (host, path, statusCode = 200, apiMethod, bod
     return payload;
 };
 
-let _httpRestPOST = async function (host, path, statusCode = 201, apiMethod, body, header = null) {
-    setPayload(host, path, statusCode, apiMethod, body, header);
-
-    payload = await payload.set(header).send(body).expect(statusCode);
-    setMatchSnapshot(payload);
-    await setDebug(payload);
-    return payload;
-};
-
 
 module.exports = {
     httpRestCall: _httpRestCall,
-    httpRestPost: _httpRestPOST
 };
