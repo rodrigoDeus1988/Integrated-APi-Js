@@ -1,6 +1,6 @@
 {
     "endpoints": {
-      "path_TesteSys" : "/cards/v2/accounts/cards/statements/transactions?pageNumber=0&pageSize=10"
+      "path_TesteSys" : "/cards/v2/accounts/cards/statements/transactions"
     },
   
     "data":{

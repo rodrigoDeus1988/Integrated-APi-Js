@@ -75,4 +75,4 @@ let _httpRestTokenPOST = async function (host, path, statusCode = 201, apiMethod
 module.exports = {
     httpRestCall: _httpRestCall,
     httpRestTokenPost: _httpRestTokenPOST
-};
+}
