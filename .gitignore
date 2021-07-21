@@ -1,7 +1,7 @@
 node_modules
 .vscode
 .npmrc
-package-lock.json/
+package-lock.json
 results/html
 results
 results/output_result.json
