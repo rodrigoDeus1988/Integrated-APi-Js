@@ -8,12 +8,14 @@ const nodeEnv = require("../../helper/node_env");
 let getBalanceService = function () {
 
     const JsonData = require('../../data/finance/TesteSys.json');
-    const JsonDataNet = require('../../data/finance/TesteNet.json');
+    const JsonDataToken = require('../../data/finance/TesteToken.json');
 
     function whichMethod(apiMethod) {
         return apiMethod.replace(/([A-Z])\w+/, "");
     }
-
+    function whichBody(body) {
+        return body({filme : "Capitão America Soldado Invernal", nota: "10"});
+    }
     this.getValidarConsulta = async (statusCode = 200) => {
         
             return http_helper.httpRestCall(
@@ -38,20 +40,17 @@ let getBalanceService = function () {
     
 }
    
-    this.postValido = async () => {
-        
-        return http_helper.httpRestPost( 
-            console.log("Teste post"),
-            nodeEnv.host["netflix"],
-            JsonDataNet.endpoints['path_NetFlix'],
+
+    this.postToken = async (statusCode = 201, body) => {
+
+        return http_helper.httpRestTokenPost(
+            nodeEnv.host["tokenRiachu"],
+            JsonDataToken.endpoints['path_Token'],
             statusCode,
-            whichMethod("post"), 
-            send({
-                filme: "Capitão America Soldado Invernal",
-                nota:  "10",
-                }),
-            null,
-            JsonData.data);
+            whichMethod("post"),
+            body = {grant_type: "client_credentials"},
+            JsonDataToken.data);
+        
     }
 
 };

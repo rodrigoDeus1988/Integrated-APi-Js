@@ -1,4 +1,4 @@
 module.exports = {
     hostTsys:'http://statement-microservice.cards.k8s-uat.bancomidway.io',
-    netflix:'https://netfilmes.herokuapp.com'
+    tokenRiachu: 'https://api-gateway-qa.riachuelo.com.br'
 };

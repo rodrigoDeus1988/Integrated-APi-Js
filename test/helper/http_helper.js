@@ -1,6 +1,7 @@
 const supertest = require('supertest');
 const nodeEnv = require("../helper/node_env");
 const fs = require('fs');
+const { TIMEOUT } = require('dns');
 
 let payload;
 
@@ -62,7 +63,7 @@ let _httpRestCall = async function (host, path, statusCode = 200, apiMethod, bod
     return payload;
 };
 
-let _httpRestPOST = async function (host, path, statusCode = 201, apiMethod, body, header = null) {
+let _httpRestTokenPOST = async function (host, path, statusCode = 201, apiMethod, body, header) {
     setPayload(host, path, statusCode, apiMethod, body, header);
 
     payload = await payload.set(header).send(body).expect(statusCode);
@@ -71,8 +72,7 @@ let _httpRestPOST = async function (host, path, statusCode = 201, apiMethod, bod
     return payload;
 };
 
-
 module.exports = {
     httpRestCall: _httpRestCall,
-    httpRestPost: _httpRestPOST
+    httpRestTokenPost: _httpRestTokenPOST
 };

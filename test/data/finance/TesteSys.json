@@ -3,7 +3,7 @@
       "path_TesteSys" : "/cards/v2/accounts/cards/statements/transactions?pageNumber=0&pageSize=10"
     },
   
-    "dataNet":{
+    "data":{
       "accept": "application/json;charset=UTF-8",
       "x-account-cpf": "27430378811",
       "x-account-pan": "4077********7988"

@@ -1,0 +1,11 @@
+{
+    "endpoints": {
+      "path_Token": "/oauth/access-token"
+    },
+    
+    "data": {
+      "accept": "*/*",
+      "content-Type": "application/json",
+      "authorization": "Basic NjY0ZTlhYjUtOTRjYi0zZmZlLWIzZTktMzUxOGZhYjhkYjlhOjMyZGMzNzg4LTcxYmYtM2Y2OS1iZjNlLTk3MDRjYWMxMjE5OQ=="
+    }
+  }

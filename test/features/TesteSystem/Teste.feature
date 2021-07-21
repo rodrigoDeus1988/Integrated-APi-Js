@@ -9,5 +9,4 @@ Funcionalidade: Teste
 		
 		Exemplos:
 		| Metodo                | 
-		|postValido             | 
-    
+		|getValidarConsulta     |

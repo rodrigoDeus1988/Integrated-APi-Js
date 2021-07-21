@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="f8a3a8cd-5e3d-4d01-96ac-912ae2089b88" name="60003350@MFMTOUVNB139353.riachuelo.net 2021-07-19T18:16:30.819Z" runUser="60003350" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Jest test run" id="298ecd55-aac7-4d79-930c-54adea03f1c2"/>
-  <Times creation="2021-07-19T18:16:30.819Z" queuing="2021-07-19T18:16:30.819Z" start="2021-07-19T18:16:30.819Z" finish="2021-07-19T18:16:30.819Z"/>
-  <ResultSummary outcome="Failed">
-    <Counters total="1" executed="1" passed="0" failed="1" error="0"/>
+<TestRun id="80f95f0d-8872-4718-9b50-00e85f8d1fd8" name="60003655@ARKMF68378 2021-07-21T14:49:37.226Z" runUser="60003655" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="82b82a12-ffdb-4b0f-8a49-e460e35a3b4f"/>
+  <Times creation="2021-07-21T14:49:37.226Z" queuing="2021-07-21T14:49:37.226Z" start="2021-07-21T14:49:37.226Z" finish="2021-07-21T14:49:37.226Z"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0"/>
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="Teste / 01_Teste" id="f681729b-cd17-4ef2-af92-64ae64c0ad03">
-      <Execution id="63144c96-4bc9-421f-bf8a-44d4f8f4d28f"/>
+    <UnitTest name="Teste / 01_Teste" id="bfe0b495-7b01-4a74-818e-62c8479ecf95">
+      <Execution id="f8996b20-3e7d-42da-8dc6-47ca70ad580b"/>
       <TestMethod codeBase="Jest_Teste / 01_Teste" name="Teste / 01_Teste" className="Teste"/>
     </UnitTest>
   </TestDefinitions>
@@ -16,19 +16,9 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
   </TestLists>
   <TestEntries>
-    <TestEntry testId="f681729b-cd17-4ef2-af92-64ae64c0ad03" executionId="63144c96-4bc9-421f-bf8a-44d4f8f4d28f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="bfe0b495-7b01-4a74-818e-62c8479ecf95" executionId="f8996b20-3e7d-42da-8dc6-47ca70ad580b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
   </TestEntries>
   <Results>
-    <UnitTestResult testId="f681729b-cd17-4ef2-af92-64ae64c0ad03" executionId="63144c96-4bc9-421f-bf8a-44d4f8f4d28f" testName="Teste / 01_Teste" computerName="MFMTOUVNB139353.riachuelo.net" duration="00:00:00.697" startTime="2021-07-19T18:16:31.565Z" endTime="2021-07-19T18:16:32.262Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
-      <Output>
-        <ErrorInfo>
-          <Message>ReferenceError: statusCode is not defined
-    at getBalanceService.postValido (/Users/60003350/WorkSpaceMidway/Automacao/Integrated-APi-Js/test/service/TesteSystem/TesteService.js:47:13)
-    at Object.stepFunction (/Users/60003350/WorkSpaceMidway/Automacao/Integrated-APi-Js/test/steps/TesteSystem/TesteSteps.steps.js:9:31)
-    at /Users/60003350/WorkSpaceMidway/Automacao/Integrated-APi-Js/node_modules/jest-cucumber/src/feature-definition-creation.ts:132:65
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</Message>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
+    <UnitTestResult testId="bfe0b495-7b01-4a74-818e-62c8479ecf95" executionId="f8996b20-3e7d-42da-8dc6-47ca70ad580b" testName="Teste / 01_Teste" computerName="ARKMF68378" duration="00:00:04.499" startTime="2021-07-21T14:49:38.979Z" endTime="2021-07-21T14:49:43.478Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
   </Results>
 </TestRun>
