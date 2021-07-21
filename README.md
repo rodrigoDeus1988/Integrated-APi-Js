@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Clear API - API REST</h3>
+  <h3 align="center">AUTOMATION - API REST</h3>
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
