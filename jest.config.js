@@ -10,6 +10,8 @@ module.exports = {
 
     "snapshotSerializers": [
         "jest-snapshots-json-rest-api"
-    ]
+    ],
+
+    setupFilesAfterEnv: ["jest-allure/dist/setup"]
 
 };

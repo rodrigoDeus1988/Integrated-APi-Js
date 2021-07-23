@@ -8,12 +8,14 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "jest": "^24.7.1",
+    "jest-allure": "^0.1.3",
     "jest-cucumber": "^2.0.11",
     "jest-html-reporter": "^2.5.0",
     "jest-trx-results-processor": "^1.0.3",
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "allure-commandline": "^2.13.8",
     "jest-junit": "^6.4.0",
     "jest-snapshots-json-rest-api": "^1.0.0"
   },
