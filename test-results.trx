@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="b49449cb-69dc-47f2-92d7-28a82cdf4ef6" name="60003655@ARKMF68378 2021-07-21T15:01:04.713Z" runUser="60003655" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Jest test run" id="6f0e0c88-194a-46f6-845c-fac570aad2d3"/>
-  <Times creation="2021-07-21T15:01:04.713Z" queuing="2021-07-21T15:01:04.713Z" start="2021-07-21T15:01:04.713Z" finish="2021-07-21T15:01:04.713Z"/>
+<TestRun id="8a862659-5b48-43d5-97a3-b0c3771a47db" name="60003655@ARKMF68378 2021-07-23T18:28:00.582Z" runUser="60003655" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="875eb9ea-b73a-4062-9c67-a2d11087c72c"/>
+  <Times creation="2021-07-23T18:28:00.582Z" queuing="2021-07-23T18:28:00.582Z" start="2021-07-23T18:28:00.582Z" finish="2021-07-23T18:28:00.582Z"/>
   <ResultSummary outcome="Passed">
     <Counters total="1" executed="1" passed="1" failed="0" error="0"/>
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="Teste / 01_Teste" id="835d88ec-02df-41e6-919a-afa2150f445e">
-      <Execution id="a4d167c0-e948-4937-bfae-42361899ada0"/>
+    <UnitTest name="Teste / 01_Teste" id="ac38965c-9eb0-42ca-bc78-d2a0fef8d4c3">
+      <Execution id="3b9f8e1a-e497-49c4-ac2e-6e5668b1a1cb"/>
       <TestMethod codeBase="Jest_Teste / 01_Teste" name="Teste / 01_Teste" className="Teste"/>
     </UnitTest>
   </TestDefinitions>
@@ -16,9 +16,9 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
   </TestLists>
   <TestEntries>
-    <TestEntry testId="835d88ec-02df-41e6-919a-afa2150f445e" executionId="a4d167c0-e948-4937-bfae-42361899ada0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ac38965c-9eb0-42ca-bc78-d2a0fef8d4c3" executionId="3b9f8e1a-e497-49c4-ac2e-6e5668b1a1cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
   </TestEntries>
   <Results>
-    <UnitTestResult testId="835d88ec-02df-41e6-919a-afa2150f445e" executionId="a4d167c0-e948-4937-bfae-42361899ada0" testName="Teste / 01_Teste" computerName="ARKMF68378" duration="00:00:06.475" startTime="2021-07-21T15:01:06.781Z" endTime="2021-07-21T15:01:13.256Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="ac38965c-9eb0-42ca-bc78-d2a0fef8d4c3" executionId="3b9f8e1a-e497-49c4-ac2e-6e5668b1a1cb" testName="Teste / 01_Teste" computerName="ARKMF68378" duration="00:00:02.505" startTime="2021-07-23T18:28:02.576Z" endTime="2021-07-23T18:28:05.081Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
   </Results>
 </TestRun>
