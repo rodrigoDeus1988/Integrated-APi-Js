@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="8a862659-5b48-43d5-97a3-b0c3771a47db" name="60003655@ARKMF68378 2021-07-23T18:28:00.582Z" runUser="60003655" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Jest test run" id="875eb9ea-b73a-4062-9c67-a2d11087c72c"/>
-  <Times creation="2021-07-23T18:28:00.582Z" queuing="2021-07-23T18:28:00.582Z" start="2021-07-23T18:28:00.582Z" finish="2021-07-23T18:28:00.582Z"/>
-  <ResultSummary outcome="Passed">
-    <Counters total="1" executed="1" passed="1" failed="0" error="0"/>
+<TestRun id="d8d82215-8fa0-47bd-9c88-7908a8db951b" name="60003350@RIMTMACMINI148642.local 2021-07-26T13:41:39.816Z" runUser="60003350" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="a75f4b7d-5cf0-4ea3-92ae-8db8a1061429"/>
+  <Times creation="2021-07-26T13:41:39.816Z" queuing="2021-07-26T13:41:39.816Z" start="2021-07-26T13:41:39.816Z" finish="2021-07-26T13:41:39.816Z"/>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0"/>
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="Teste / 01_Teste" id="ac38965c-9eb0-42ca-bc78-d2a0fef8d4c3">
-      <Execution id="3b9f8e1a-e497-49c4-ac2e-6e5668b1a1cb"/>
+    <UnitTest name="Teste / 01_Teste" id="8928af9f-3b47-427d-8120-3186b779c6f8">
+      <Execution id="30b9f3da-950c-43a9-81da-456c603f94d1"/>
       <TestMethod codeBase="Jest_Teste / 01_Teste" name="Teste / 01_Teste" className="Teste"/>
     </UnitTest>
   </TestDefinitions>
@@ -16,9 +16,16 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
   </TestLists>
   <TestEntries>
-    <TestEntry testId="ac38965c-9eb0-42ca-bc78-d2a0fef8d4c3" executionId="3b9f8e1a-e497-49c4-ac2e-6e5668b1a1cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8928af9f-3b47-427d-8120-3186b779c6f8" executionId="30b9f3da-950c-43a9-81da-456c603f94d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
   </TestEntries>
   <Results>
-    <UnitTestResult testId="ac38965c-9eb0-42ca-bc78-d2a0fef8d4c3" executionId="3b9f8e1a-e497-49c4-ac2e-6e5668b1a1cb" testName="Teste / 01_Teste" computerName="ARKMF68378" duration="00:00:02.505" startTime="2021-07-23T18:28:02.576Z" endTime="2021-07-23T18:28:05.081Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="8928af9f-3b47-427d-8120-3186b779c6f8" executionId="30b9f3da-950c-43a9-81da-456c603f94d1" testName="Teste / 01_Teste" computerName="RIMTMACMINI148642.local" duration="00:00:01.184" startTime="2021-07-26T13:41:40.605Z" endTime="2021-07-26T13:41:41.789Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Error: getaddrinfo ENOTFOUND statement-microservice.cards.k8s-uat.bancomidway.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
   </Results>
 </TestRun>

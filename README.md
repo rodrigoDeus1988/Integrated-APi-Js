@@ -63,6 +63,27 @@ npm run test:dsv
 npm run test:hml
 npm run test:prd
 ```
+## Gerando relatório de teste
+
+Instalar o allure report:
+
+```bash
+npm install allure
+```
+```bash
+npm install allure-commandline -g
+```
+
+Após a execução do teste gerar o relatório:
+
+```bash
+allure generate --clean
+```
+
+Abrir o relatório:
+
+```bash
+allure open
 
 <!-- CONTRIBUTING -->
 ## Contribuindo
