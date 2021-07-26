@@ -1,5 +1,6 @@
 node_modules
 .vscode
+allure-report
 allure-results
 .npmrc
 package-lock.json
